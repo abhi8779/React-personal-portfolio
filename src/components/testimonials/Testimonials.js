@@ -3,7 +3,7 @@ import "./testimonials.css";
 import AVTR1 from "../../assets/IMG_20220520_230414.jpg";
 import AVTR2 from "../../assets/WhatsApp Image 2022-05-20 at 11.12.40 PM.jpeg";
 import AVTR3 from "../../assets/WhatsApp Image 2022-05-20 at 11.10.31 PM.jpeg";
-import AVTR4 from "../../assets/avatar4.jpg";
+import AVTR4 from "../../assets/WhatsApp Image 2022-05-20 at 11.12.28 PM.jpeg";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -23,12 +23,20 @@ const datas = [
       "Thank you so much for helping me on the frontend part of my final year Project, all the front end logic was amazing. the code is really clean and easily maintainable  ",
   },
   {
+    id: 4,
+    avatar: AVTR4,
+    name: "Sourav Wankhade",
+    review:
+      "Excillent work every code components are simple yet performant the whole app is amazing each and every aspect thank you XD--",
+  },
+  {
     id: 2,
     avatar: AVTR2,
     name: "Aryan Ghatkar",
     review:
       "Thankx for such a great website I really appreciate the work put in this React web site. all the Components are amazing",
   },
+
   {
     id: 3,
     avatar: AVTR3,

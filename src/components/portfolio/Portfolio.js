@@ -5,6 +5,11 @@ import IMG3 from "../../assets/Screenshot (108).png";
 import IMG4 from "../../assets/Screenshot (107).png";
 import IMG5 from "../../assets/Screenshot (106).png";
 import IMG6 from "../../assets/Screenshot (109).png";
+import IMG7 from "../../assets/Screenshot (111).png";
+import IMG8 from "../../assets/Screenshot (110).png";
+import IMG9 from "../../assets/Screenshot (112).png";
+import IMG10 from "../../assets/Screenshot (113).png";
+import IMG11 from "../../assets/Screenshot (114).png";
 
 import "./portfolio.css";
 
@@ -40,7 +45,7 @@ const projectsData = [
   {
     id: 5,
     image: IMG5,
-    title: "Crypto CUrrency Dashboard and Financial Visualization",
+    title: "Expense Tracker (React)",
     github: "https://github.com/abhi8779/Expense-Tracker",
     demo: "https://expense-tracker-abhi.netlify.app",
   },
@@ -49,7 +54,42 @@ const projectsData = [
     image: IMG6,
     title: "Bank Money Flow Dashboard",
     github: "https://github.com/abhi8779/Bankist-Money-Transfer-App",
-    demo: "bank-money-flow-dashboard.netlify.app",
+    demo: "https://bankist-money-transfer.netlify.app/",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "Text Utils (React)",
+    github: "https://github.com/abhi8779/",
+    demo: "https://text-utils-react-abhi.netlify.app/",
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: "React Personal Portfolio",
+    github: "https://github.com/abhi8779/",
+    demo: "https://abhishek-bhandari-portfolio-react.netlify.app/",
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: "Dice Game (2 player)",
+    github: "https://github.com/abhi8779/Dice-Game",
+    demo: "https://dice-game-abhi.netlify.app/",
+  },
+  {
+    id: 10,
+    image: IMG10,
+    title: "Guess My Number Game",
+    github: "https://github.com/abhi8779/Guess-My-Number-Game",
+    demo: "https://guess-my-number-game-abhi.netlify.app/",
+  },
+  {
+    id: 11,
+    image: IMG11,
+    title: "3d Portfolio Website",
+    github: "https://github.com/abhi8779/",
+    demo: "https://3d-portfolio-website.netlify.app/",
   },
 ];
 

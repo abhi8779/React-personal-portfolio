@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -34,15 +34,19 @@ const Footer = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a href="https://facebook.com/abhishek.bhabdari/" target="_blank">
           <BsFacebook />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://instagram.com/abhi____009/" target="_blank">
           <BsInstagram />
         </a>
-        <a href="https://twitter.com">
-          <BsTwitter />
+        <a
+          href="https://www.linkedin.com/in/abhishek-bhandari-87b116233/"
+          target="_blank"
+        >
+          <BsLinkedin />
         </a>
       </div>
       <div className="footer__copyright">
