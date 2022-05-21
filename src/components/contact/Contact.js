@@ -46,10 +46,7 @@ const Contact = () => {
             <SiWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>877-983-5728</h5>
-            <a
-              href="https:/api.whatsapp.com/send?phone=8779835728"
-              target="_blank"
-            >
+            <a href="https://wa.me/918779835728" target="_blank">
               Send a message
             </a>
           </article>
